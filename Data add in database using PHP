@@ -18,6 +18,8 @@
    mysqli_query($conn,"insert into palace values('$_POST[Items]','$_POST[Quantity}')");
   }
 	require("add.php");
+	#or
+	include(location:"add.php");
 ?>
 </body>
 </html>
